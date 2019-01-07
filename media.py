@@ -1,0 +1,90 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'media.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Home(object):
+    def setupUi(self, Home):
+        Home.setObjectName("Home")
+        Home.resize(333, 394)
+        font = QtGui.QFont()
+        font.setFamily("MS Sans Serif")
+        Home.setFont(font)
+        self.centralwidget = QtWidgets.QWidget(Home)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(0, 40, 161, 111))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton.setFont(font)
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(170, 40, 161, 111))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(0, 150, 161, 111))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(170, 150, 161, 111))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_4.setFont(font)
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(60, 10, 211, 20))
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_6.setGeometry(QtCore.QRect(170, 260, 161, 111))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_6.setFont(font)
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.pushButton_7 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_7.setGeometry(QtCore.QRect(0, 260, 161, 111))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_7.setFont(font)
+        self.pushButton_7.setObjectName("pushButton_7")
+        Home.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(Home)
+        self.statusbar.setObjectName("statusbar")
+        Home.setStatusBar(self.statusbar)
+
+        self.retranslateUi(Home)
+        QtCore.QMetaObject.connectSlotsByName(Home)
+
+    def retranslateUi(self, Home):
+        _translate = QtCore.QCoreApplication.translate
+        Home.setWindowTitle(_translate("Home", "MainWindow"))
+        self.pushButton.setText(_translate("Home", "Open Audio"))
+        self.pushButton_2.setText(_translate("Home", "Open Images"))
+        self.pushButton_3.setText(_translate("Home", "Open Documents"))
+        self.pushButton_4.setText(_translate("Home", "Go To Internet!"))
+        self.label.setText(_translate("Home", "A Multi Media Application"))
+        self.pushButton_6.setText(_translate("Home", "Send An Email!"))
+        self.pushButton_7.setText(_translate("Home", "Search On Map!"))
+
